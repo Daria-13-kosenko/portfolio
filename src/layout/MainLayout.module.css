@@ -1,0 +1,16 @@
+.layout {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #fdfaff 0%, #f8f6ff 100%);
+}
+.main {
+  margin-left: 245px;
+  min-height: 100vh;
+  padding: 32px;
+  box-sizing: border-box;
+}
+@media (max-width: 900px) {
+  .main {
+    margin-left: 0;
+    padding: 20px 16px 92px;
+  }
+}
